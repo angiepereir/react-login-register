@@ -1,0 +1,43 @@
+.Form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .input, .password {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: #1e1e1e;
+  }
+  
+  .submit {
+    display: block;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .submit:hover {
+    background-color: #ffffff;
+    color: #1e1e1e;
+    border: 1px solid #1e1e1e;
+  }
+  
